@@ -18,6 +18,7 @@ body{
     --red:#2580d6;
     --white:#fff;
     --dark:#f80808;
+    
 }
 
 .navigation{
@@ -30,11 +31,12 @@ body{
     transition: all 0.5s;
     position: fixed;
     width: 100%;
+    background-image: linear-gradient(to right,rgb(245, 34, 192), #2580d6, #f80808);
 }
 
 .navigation .logo{
     color: black;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -46,7 +48,7 @@ body{
 
 .navigation ul li a{
     color: black;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     transition: all 0.5s;
     }
@@ -95,13 +97,14 @@ height: 25px;
     background: var(--red);}
 
 
+/*HOME*/
 .home{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0% 8%;
+    padding: 0% 10%;
 }
 
 .home-text{
@@ -135,7 +138,7 @@ p{
     display: flex;
     justify-content: center;
     padding: 15px 45px;
-    background: red;
+    background-image: linear-gradient(to right,rgb(245, 34, 192), #2580d6, #f80808);
     color: white;
     border-radius: 10px;
     font-weight: 700;
@@ -153,7 +156,7 @@ p{
 }
 
 .logo img{
-    width: 90%;
+    width: 95%;
     margin-top: 6%;
     margin-left: 10%;
     
@@ -221,6 +224,9 @@ p{
         }
     }
 
+/*FIM DO HOME*/
+
+
 /*SOBRE NÓS*/
 .home-sobre{
     width: 100%;
@@ -228,7 +234,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 8%;
+    padding: 0px 7%;
+    
+       
     
 }
 
@@ -259,7 +267,7 @@ p{
     display: flex;
     justify-content: center;
     padding: 15px 45px;
-    background: red;
+    background-image: linear-gradient(to right,rgb(245, 34, 192), #2580d6, #f80808);
     color: white;
     border-radius: 10px;
     font-weight: 700;
@@ -341,8 +349,7 @@ p{
                   
         }
     }
-        
-    
+/*FIM DO SOBRE NÓS*/
 
 
 /*CONTATO*/
@@ -390,6 +397,7 @@ p .pcontato{
 .logo-contato img{
     width: 70%;
     margin-top: 5%;
+    
     margin-left: 5%;
    
 }
@@ -416,7 +424,7 @@ form {
     margin-right: 5%;
     padding: 8px;
     width: 50%;
-    margin-top: 2%;
+    margin-top: 3%;
     
   }
   
@@ -439,7 +447,7 @@ button {
     display: flex;
     justify-content: center;
     padding: 15px 15px;
-    background: red;
+    background-image: linear-gradient(to right,rgb(245, 34, 192), #2580d6, #f80808);
     color: white;
     border-radius: 10px;
     font-weight: 700;
@@ -512,6 +520,70 @@ form{
               
     }
 }
+/*FIM DE CONTATO*/
+
+
+
+
+/*BRINQUEDOS*/
+
+.conteiner-festa1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 7%;
+    gap: 2rem;
+    
+}
+
+
+
+.conteiner-festa2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+    margin-top: 7%;
+    gap: 2rem;
+}
+
+
+.festa {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+    
+   
+}
+
+h3{
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+    font-size: 2rem;
+    color: #bb2c9c;
+   text-align: center;
+}
+
+.imagem-todos img{
+    cursor: pointer;
+    display: flex;
+    width: 350px;
+    height: 210px;
+    border: 1px solid;
+    
+}    
+
+/*FIM BRINQUEDOS*/
+
+
+
+
     
 
 
