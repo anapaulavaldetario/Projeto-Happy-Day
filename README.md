@@ -9,6 +9,6 @@ Este foi um projeto desenvolvido para uma empresa de Festa e me autorizou a colo
 ❤ Criação: Ana Paula Valdetário
 
 
-![mobile](![mobile](https://github.com/anapaulavaldetario/Projeto-Happy-Day/assets/102619370/2d761ac2-7a8d-4de8-b901-d4cf3dc4945b)
+(![mobile](https://github.com/anapaulavaldetario/Projeto-Happy-Day/assets/102619370/2d761ac2-7a8d-4de8-b901-d4cf3dc4945b)
 
 
