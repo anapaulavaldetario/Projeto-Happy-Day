@@ -12,6 +12,7 @@
 body{
     color: black;
     background: white;
+    height: 100vh;
 }
 
 :root{
@@ -69,7 +70,7 @@ height: 25px;
         border-radius: 2px;
         }
 .navigation ul li a:hover{
-    color: #999797e5;
+    color: white;
 }
 
 .navigation i{
@@ -156,14 +157,22 @@ p{
 }
 
 .logo img{
-    width: 95%;
+    width: 500px;
     margin-top: 6%;
     margin-left: 10%;
     
-    
 }
 
-@media (max-width:785px){
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+@media (max-width:1020px){
     .navigation{
         padding: 18px 20px;
     }
@@ -197,6 +206,7 @@ p{
     .nav-item{
         margin: 16px 0;
     }
+
 
     /*main*/
         .home{
@@ -283,6 +293,7 @@ p{
 }
 
 .home-carro-sobre img{
+    width: 600px;
     padding-left: 6%;
     
 }
@@ -354,17 +365,24 @@ p{
 
 /*CONTATO*/
 
-.home2-contato{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+form{
+    width: 450px;
+    height: 60vh;
     padding: 0% 8%;
+    margin-top: 5%;
+    margin-right: 10%;
+    border: 2px solid #2580d6;
+    background: #9ec9f1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+   
+    
 }
 
 .home2-text-contato{
-    max-width: 50rem;
+    max-width: 70rem;
     padding-left: 5%;
         
 }
@@ -395,11 +413,9 @@ p .pcontato{
 
 
 .logo-contato img{
-    width: 70%;
-    margin-top: 5%;
-    
-    margin-left: 5%;
-   
+    width: 500px;
+    margin-top: 15%;
+    margin-left: 8%;
 }
 
 main{
@@ -412,54 +428,30 @@ main{
 h1{
     font-size: 1.7rem;
     line-height: 3rem;
+    text-align: center;
 }
 
-form {
-    border: 2px solid #2580d6;
-    background: #9ec9f1;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 5%;
-    padding: 8px;
-    width: 50%;
-    margin-top: 3%;
-    
-  }
+
   
 input, textarea, button {
     border: 1px solid #2580d6;
     background-color: #f7f7f7;
-    
     border-radius: 5px;
     color: #777;
-    font-size: 18px;
+    font-size: 20px;
     outline: none;
     padding: 15px;
     width: 100%;
+    
   }
   
-button {
+input {
+    margin-bottom: 2%;
     
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    padding: 15px 15px;
-    background-image: linear-gradient(to right,rgb(245, 34, 192), #2580d6, #f80808);
-    color: white;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 20px;
-    transition: all 0.5s;
-    border: none;
-    margin-top:5% ;
-
-  }
+    }
 
 
-  @media (max-width:785px){
+  @media (max-width:1040px){
     .navigation{
         padding: 18px 20px;
     }
@@ -582,9 +574,28 @@ h3{
 /*FIM BRINQUEDOS*/
 
 
-
-
     
+/*zap*/
+.tp{
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    bottom: 50px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+ 
+   
+    
+  }
+  
+  .tp:hover{
+    color: #e2fcef;  
+    background-color: #139643;
+  }
 
 
     
